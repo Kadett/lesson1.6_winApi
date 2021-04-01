@@ -1,7 +1,5 @@
 #include <windows.h>
 #include <tchar.h>
-using namespace std;
-
 
 LRESULT CALLBACK WndProc(HWND, UINT, WPARAM, LPARAM);
 BOOL FileExists(LPCTSTR szPath);
